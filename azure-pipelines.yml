@@ -23,8 +23,4 @@ steps:
     overrideParameters: '-projectName avvaruproj -linkedTemplateUri https://raw.githubusercontent.com/anil-kumar-appliedis/AzureRmPipeline-repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
 
